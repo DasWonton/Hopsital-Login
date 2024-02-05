@@ -1,0 +1,81 @@
+html {
+  margin: 0;
+  background: url("images/hospital-bg.jpg") no-repeat fixed center;
+  background-size: cover;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  margin: 20px auto;
+  padding: 20px 50px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin: 22.5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+img:hover {
+  border-color: red;
+  cursor: pointer;
+}
+
+h2,
+h3 {
+  color: grey;
+}
+
+div {
+  background-color: lightblue;
+  border: 3px solid darkblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+a {
+  color: darkblue;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: #2b6eb1;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+button {
+  background: darkblue;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: white;
+  margin: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+span {
+  letter-spacing: 3px;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+
+p {
+  font-size: 13px;
+}
